@@ -1,8 +1,13 @@
 // Assignment code here
+
+// Password Req Arrays
+
 var numbers =[0,1,2,3,4,5,6,7,8,9];
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 var lowerCase = "abcdefghijklmnopqrstuvwxyz".split("");
 var specialChar = "!@#$%^&*(".split("");
+
+// Criteria for Password Generation
 
 function passwordCrit() {
   var passwordLength = window.prompt("How many characters?");
@@ -36,6 +41,8 @@ var passwordOpt = {
 
 return passwordOpt;
 }
+
+// Password Generation
 
 function generatePassword() {
 
